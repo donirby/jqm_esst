@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="../_scripts/jquery.mobile-1.4.5.css" />
     <script src="../_scripts/jquery-1.11.0.js" type="text/javascript"></script>
     <script src="../_scripts/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+    <script>
+        $(document).on('pagecreate', function (evt) {
+            $(document).on("scrollstop", function (e) {
+                console.log("scrolling stopped");
+            });
+            $(document).on("scrollstart", function (e) {
+                console.log("scrolling started");
+            });
+        });
+    </script>
     <meta name="viewport" content="width=device-width"/>
 </head>
 <body>
