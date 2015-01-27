@@ -5,8 +5,8 @@ This is a repository for developing jQuery Mobile applications. It is based on a
 ## Instructions
 
 ### Additional Resources
-[jQuery Website]http://jquery.com/
+[jQuery Website](http://jquery.com/)
 
-[jQuery Mobile Website]http://jquerymobile.com/
+[jQuery Mobile Website](http://jquerymobile.com/)
 
-[jQuery UI Website]http://jqueryui.com/
+[jQuery UI Website](http://jqueryui.com/)
